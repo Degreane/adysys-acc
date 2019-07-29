@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Faysal Al-Banna">
+        <title>AdySys GiaCom 2019 &copy;&reg;</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allan">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allura">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm">
+    </head>
+    <body id="body" style="min-width: 100vw; min-height: 100vh;" class="bg-ragdiant-primary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-ragdiant-primary"> 
+            <a class="navbar-brand adyBrand" href="#" style="font-family: Charm; letter-spacing: 2px;">AdySys ERP</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler39" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button>             
+        </nav>
+        <div class="modal fade shadow-lg pg-show-modal" id="LogInPanel" tabindex="-1" role="dialog" aria-hidden="true" data-pg-name="LogInPanel" data-keyboard="false" data-trigger="hover" data-html="true" data-toggle="popover" title="AdySys 2019 LogIn" data-content="LogIn to ERP system " data-placement="bottom" data-show="true" data-delay="10000" style="font-family: Abhaya Libre;"> 
+            <div class="modal-dialog modal-dialog-centered"> 
+                <div class="modal-content" style="border-radius: 15px; border: 1px solid rgba(18, 70, 89, 0.83); box-shadow: 10px 10px 10px 10px #7aa8cf;"> 
+                    <div class="modal-header" style="flex-wrap: nowrap;"> 
+                        <h4 class="modal-title text-center adyBrand" id="LogInPanelTitle" style="flex-grow: 1; flex-shrink: 1; align-self: center;">GiaCom AdySys Login</h4> 
+                    </div>                     
+                    <div class="modal-body">
+                        <form role="form" id="lgnForm" class="was-validated"> 
+                            <div class="form-group"> 
+                                <label for="lgnID" id="lgnIDLabel">Email address/LogIn ID
+</label>                                 
+                                <input class="form-control" id="lgnID" placeholder="Enter email/LogIn ID" type="text" required> 
+                            </div>                             
+                            <div class="form-group"> 
+                                <label for="lgnPass" id="lgnPassLabel">Password</label>                                 
+                                <input type="password" class="form-control" id="lgnPass" placeholder="Password" required> 
+                            </div>                             
+                        </form>                         
+                    </div>                     
+                    <div class="modal-footer"> 
+                        <button type="button" class="btn btn-primary" id="lgnBtn">Connect</button>                         
+                    </div>                     
+                </div>                 
+            </div>             
+        </div>
+        <div class="container">
+</div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+    $(function() {
+    $('[data-toggle="popover"]').popover();
+})
+</script>
+        <script>
+        $(function(){
+           $('#LogInPanel').modal({'show':true,'backdrop':'static'});  
+        })
+        </script>
+    </body>
+</html>
