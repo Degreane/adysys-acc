@@ -1,7 +1,7 @@
 import paramiko
 client = paramiko.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-client.connect('193.30.96.57', username='faysal', password='lasyaf', port=22, allow_agent=False, look_for_keys=False)
+client.connect('193.30.96.57', username='hidden', password='hidden', port=22, allow_agent=False, look_for_keys=False)
 shell = client.invoke_shell()
 _, stdout, stderr = client.exec_command(' system clock set time-zone-name="Asia/Beirut"')
 data = "{}".format(stdout.read().decode('utf-8'))
