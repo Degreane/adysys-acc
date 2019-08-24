@@ -9,3 +9,8 @@
     font-family: Charm;
     background: -webkit-radial-gradient(center center, rgb(41, 128, 185) 0%, rgb(109, 213, 250) 50%, rgb(255, 255, 255) 100%);
 }
+
+.pageBody {
+    min-width: 100vw;
+    min-height: 100vh;
+}
